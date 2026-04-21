@@ -26,22 +26,22 @@ Based on the comprehensive analysis of 172,765 total orders, the following KPIs 
 
 ### 1. Delivery & Delay Analysis
 We conducted an extensive EDA to understand the distribution of delays across various categories.
-![Delay Analysis](Delay_analysis.png)
+![Delay Analysis](Analysis_Charts/Delay_analysis.png)
 *Figure 1: Distribution of late deliveries across different shipping modes and departments.*
 
 ### 2. Time Series Trends
 The analysis looked at how delivery performance fluctuated over time to identify seasonal patterns or systemic failures.
-![Time Series Analysis](Time_series_Analysis.png)
+![Time Series Analysis](Analysis_Charts/Time_series_Analysis.png)
 *Figure 2: Delivery performance and shipping volume trends over time.*
 
 ### 3. Bottleneck Identification
 Specific "hotspots" in the supply chain were identified. Regions like **Southeast Asia** and **South Asia** were found to have significantly higher late delivery rates compared to others.
-![Bottleneck Analysis](bottleneck_analysis.png)
+![Bottleneck Analysis](Analysis_Charts/bottleneck_analysis.png)
 *Figure 3: Identification of regional and departmental bottlenecks.*
 
 ### 4. Root Cause Deep Dive
 We investigated the underlying factors contributing to these delays, such as shipping mode efficiency and order status correlations.
-![Root Cause Analysis](RootCauseAnalysis.png)
+![Root Cause Analysis](Analysis_Charts/RootCauseAnalysis.png)
 *Figure 4: Factors most strongly correlated with delivery failure.*
 
 ### 5. Predictive Modeling & Risk Evaluation
@@ -51,8 +51,8 @@ Multiple machine learning models (Logistic Regression, XGBoost, and **Random For
 
 #### Risk Probability Distribution
 The model generates a probability flag for each order, allowing logistics managers to prioritize high-risk shipments.
-![Probability Flag Distribution](Probability_flag_dist.png)
-![Probability Flag](Probability_flag.png)
+![Probability Flag Distribution](Analysis_Charts/Probability_flag_dist.png)
+![Probability Flag](Analysis_Charts/Probability_flag.png)
 *Figures 5 & 6: Distribution of risk probabilities and the effectiveness of the risk flagging system.*
 
 ## Suggestions to Improve Root Cause
