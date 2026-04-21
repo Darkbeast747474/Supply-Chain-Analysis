@@ -63,4 +63,4 @@ The model generates a probability flag for each order, allowing logistics manage
 5.  **Departmental Optimization**: Re-evaluate inventory management for the 'Fitness' department, which shows a higher propensity for delays.
 
 ---
-*Created as part of the Analytics Course Work.*
+*Created For Educational Purposes.*
